@@ -9,7 +9,7 @@ idx++;
 if(idx > img.length - 1){
 idx = 0;
 }
-imgs.style.transform = `translateX(${-idx * 500}px)`;
+imgs.style.transform = `translateX(${-idx * 420}px)`;
 }
 
 setInterval(carrosel, 1800);
