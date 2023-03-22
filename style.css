@@ -81,7 +81,7 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
   .mobile-menu div {
     width: 30px;
     height: 2px;
-    background: black;
+    background: gray;
     margin: 8px;
     transition: 0.3s;
   }
@@ -109,6 +109,7 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
 
     .nav-list li{
         margin-left: 0;
+        
        
     }
 
