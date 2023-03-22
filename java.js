@@ -1,18 +1,4 @@
-const imgs = document.getElementById("img");
-const img = document.querySelectorAll("#img img");
 
-let idx = 0;
-
-function carrosel(){
-idx++;
-
-if(idx > img.length - 1){
-idx = 0;
-}
-imgs.style.transform = `translateX(${-idx * 420}px)`;
-}
-
-setInterval(carrosel, 1800);
 
 
 
@@ -63,5 +49,22 @@ const mobileNavbar  = new MobileNavbar(
     ".nav-list li",
 );
 mobileNavbar.init();
+
+
+const imgs = document.getElementById("img");
+const img = document.querySelectorAll("#img img");
+
+let idx = 0;
+
+function carrosel(){
+idx++;
+
+if(idx > img.length - 1){
+idx = 0;
+}
+imgs.style.transform = `translateX(${-idx * 430}px)`;
+}
+
+setInterval(carrosel, 2000);
 
 

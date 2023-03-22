@@ -90,7 +90,7 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
         overflow-x: hidden;
     }
     a{
-        color: gray;
+        color: rgb(85, 85, 85);
         font-size: 0.9em;
         text-decoration: none;
         transition: 0.3s;
@@ -109,6 +109,7 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
         position: fixed;
+        z-index: 10;
         
     }
 
@@ -152,11 +153,14 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
     transition: transform 0.9s ease-in-out;
     transform: translateX(0);
     object-fit: cover;
+    align-items: center;
 }
 
 img{
     object-fit: cover;
     width: 100%;
     height: 300px;
+    
+    
 
 }
