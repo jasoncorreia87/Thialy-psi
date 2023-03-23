@@ -51,20 +51,40 @@ const mobileNavbar  = new MobileNavbar(
 mobileNavbar.init();
 
 
-const imgs = document.getElementById("img");
-const img = document.querySelectorAll("#img img");
 
-let idx = 0;
+var slideIndex = 0;
+showSlides(slideIndex);
 
-function carrosel(){
-idx++;
+function showSlides(n) {
+  var slides = document.getElementsByClassName("slider-wrapper")[0].getElementsByTagName("img");
+  var dots = document.getElementsByClassName("slider-dot");
 
-if(idx > img.length - 1){
-idx = 0;
+  if (n >= slides.length) {
+    slideIndex = 0;
+  } else if (n < 0) {
+    slideIndex = slides.length - 1;
+  } else {
+    slideIndex = n;
+  }
+
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[slideIndex].style.display = "block";
 }
-imgs.style.transform = `translateX(${-idx * 450}px)`;
-}
 
-setInterval(carrosel, 3500);
+var prevBtn = document.getElementsByClassName("slider-control-prev")[0];
+var nextBtn = document.getElementsByClassName("slider-control-next")[0];
+
+prevBtn.addEventListener("click", function() {
+  showSlides(slideIndex - 1);
+});
+
+nextBtn.addEventListener("click", function() {
+  showSlides(slideIndex + 1);
+});
+
+
 
 

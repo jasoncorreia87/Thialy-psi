@@ -130,34 +130,6 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
   }
 
 
-
-
-.carrosel{
-    box-shadow: 2px 2px 4px black;
-    overflow: hidden;
-    width: 90%;
-    height: 300px;
-    margin: auto;
-}
-
-.container{
-    display: flex;
-    transition: transform 0.9s ease-in-out;
-    transform: translateX(0);
-    object-fit: cover;
-    align-items: center;
-}
-
-img{
-    object-fit: cover;
-    width: 100%;
-    height: 300px;
-    
-    
-
-}
-
-
   @keyframes navlinkFade{
     from{
         opacity: 0;
@@ -168,3 +140,48 @@ img{
     }
   }
 
+
+  .slider-container {
+    
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+  }
+  
+  .slider-wrapper {
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+  }
+  
+  .slider-wrapper img {
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .slider-control-prev {
+    left: 0;
+  }
+  
+  .slider-control-next {
+    right: 0;
+  }
