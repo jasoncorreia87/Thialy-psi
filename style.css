@@ -229,3 +229,16 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
   background-color: white;
 }
 /*aqui termina o carrosel*/
+
+.fotothica{
+  background-color: #fcedec;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 500px;
+}
+
+.thicafoto{
+  height: 300px;
+
+}
