@@ -141,47 +141,115 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
   }
 
 
-  .slider-container {
-    
-    position: relative;
+  article{
+    margin-top: -150px;
+    padding: 0;
     width: 100%;
-    height: 250px;
-    overflow: hidden;
-  }
-  
-  .slider-wrapper {
-    position: absolute;
-    width: 400%;
-    height: 100%;
-    left: 0;
-    top: 0;
+    height: 60vh;
     display: flex;
-  }
-  
-  .slider-wrapper img {
-    width: 25%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .slider-control {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    font-weight: bold;
-    border: none;
-    background-color: transparent;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .slider-control-prev {
-    left: 0;
-  }
-  
-  .slider-control-next {
-    right: 0;
-  }
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+  margin: 0 auto;
+  width: 100vw;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 400%;
+  height: 300px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 25%;
+  position: relative;
+  transition: 2s;
+}
+
+.slide img{
+  width: 100%;
+}
+
+.manual-navigation{
+  position: absolute;
+  width: 100%;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .05s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+
+}
+.manual-btn:hover{
+  background-color: white;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -75%;
+}
+
+.navigation-auto div{
+  border: 2px solid blanchedalmond;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.navigation-auto{
+  position: absolute;
+  width: 100%;
+  margin-top: 260px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-auto div:not(:Last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background-color: white;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background-color: white;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background-color: white;
+}

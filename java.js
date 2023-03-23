@@ -51,40 +51,20 @@ const mobileNavbar  = new MobileNavbar(
 mobileNavbar.init();
 
 
+let count = 1;
+document.getElementById("radio1").checked = true
 
-var slideIndex = 0;
-showSlides(slideIndex);
+setInterval(function(){
+    nextImage();
+}, 4000)
 
-function showSlides(n) {
-  var slides = document.getElementsByClassName("slider-wrapper")[0].getElementsByTagName("img");
-  var dots = document.getElementsByClassName("slider-dot");
-
-  if (n >= slides.length) {
-    slideIndex = 0;
-  } else if (n < 0) {
-    slideIndex = slides.length - 1;
-  } else {
-    slideIndex = n;
-  }
-
-  for (var i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  slides[slideIndex].style.display = "block";
+function nextImage(){
+    count++;
+    if(count>4){
+        count = 1;
+    }
+    document.getElementById("radio"+count).checked = true;
 }
-
-var prevBtn = document.getElementsByClassName("slider-control-prev")[0];
-var nextBtn = document.getElementsByClassName("slider-control-next")[0];
-
-prevBtn.addEventListener("click", function() {
-  showSlides(slideIndex - 1);
-});
-
-nextBtn.addEventListener("click", function() {
-  showSlides(slideIndex + 1);
-});
-
 
 
 
