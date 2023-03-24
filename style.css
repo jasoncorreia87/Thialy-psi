@@ -9,6 +9,11 @@
   src: url(fonte/Louis\ George\ Cafe.ttf);
 }
 
+@font-face {
+  font-family: louisbold;
+  src: url(fonte/Louis\ George\ Cafe\ Bold.ttf);
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -277,10 +282,21 @@ p{
 }
 
 .capacitacao{
-
-background: url(imagem/capacitacao.jpg) no-repeat;
+  position: relative;
+background-color: white;
+background: url(imagem/capacitacao.png) no-repeat;
 background-size: cover;
 width: 100%;
 height: 600px;
+
+}
+
+.cap{
+  font-family: louisbold;
+  color: rgb(44, 44, 44);
+  left: 40px;
+  font-size: 2.2em;
+  position: absolute;
+  
 
 }
