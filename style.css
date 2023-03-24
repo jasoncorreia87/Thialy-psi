@@ -75,7 +75,7 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
         overflow-x: hidden;
     }
     a{
-        color: rgb(85, 85, 85);
+        color: rgb(0, 0, 0);
         font-size: 0.9em;
         text-decoration: none;
         transition: 0.3s;
@@ -83,11 +83,11 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
 
     .nav-list{
         position: absolute;
-        top: 8vh;
+        top: 10.5vh;
         right: 0;
         width: 40vw;
-        height: 50vh;
-        background: #fcedecb1;
+        height: 300px;
+        background: rgba(255, 255, 255, 0.611);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -111,6 +111,7 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
 
     .nav-list.active{
         transform: translateX(0);
+        height: 300px;
     }
   }
 
@@ -273,4 +274,13 @@ p{
   text-align: center;
   padding: 30px;
   color: gray;
+}
+
+.capacitacao{
+
+background: url(imagem/capacitacao.jpg) no-repeat;
+background-size: cover;
+width: 100%;
+height: 600px;
+
 }
