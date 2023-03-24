@@ -172,8 +172,8 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
 }
 
 .manual-btn{
-  border: 2px solid white;
-  padding: 5px;
+  border: 0.5px solid white;
+  padding: 3px;
   border-radius: 10px;
   cursor: pointer;
   transition: .05s;
@@ -204,8 +204,8 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
 }
 
 .navigation-auto div{
-  border: 2px solid blanchedalmond;
-  padding: 5px;
+  border: 0.5px solid blanchedalmond;
+  padding: 3px;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
