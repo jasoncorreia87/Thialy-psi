@@ -31,11 +31,11 @@
 
 
   .thica{
-background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
+  background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
   background-size: contain;
-  width: 200px;
+  width: 160px;
   height: 90px;
-  margin: 0 ;
+  margin: 10px 0 0 -40px ;
   }
 
   nav{
@@ -47,6 +47,7 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
     box-shadow: 3px -4px 7px 0px rgba(162, 162, 162, 0.563) inset;
     height: 100px;
     z-index: 13;
+    
   }
 
   .nav-list{
@@ -76,8 +77,13 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
   }
 
   @media (max-width: 999px){
+
+    
     body{
         overflow-x: hidden;
+    }
+    main{
+      
     }
     a{
         color: rgb(0, 0, 0);
@@ -98,7 +104,6 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        position: fixed;
         z-index: 10;
         
     }
@@ -247,56 +252,100 @@ background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
 /*aqui termina o carrosel*/
 
 .quemsoueu{
-  position;
-  
+  position: relative;
   
 }
+.h11{
+  text-align: center;
+  font-family: louislight;
+  color: #7D7675;
+  font-size: 2.2em;
+  
+  margin: 60px 0 60px 0;
+  
 
+}
 .fotothica{
   background-color: white;
   justify-content: center;
-  align-items: center;
   display: flex;
   height: 300px;
+
 }
 
 .thicafoto{
-  margin-top: 30px;
+  position: absolute;
+  width: 480px;
   height: 300px;
+  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.21);
 
-}
 
-h1{
-  font-family: louislight;
-  color: gray;
-  text-align: center;
-  font-size: 2.2em;
-  margin-top: 60px;
 }
 
 p{
   font-family: louislight;
   text-align: center;
-  padding: 30px;
-  color: gray;
-}
-
-.capacitacao{
-  position: relative;
-background-color: white;
-background: url(imagem/capacitacao.png) no-repeat;
-background-size: cover;
-width: 100%;
-height: 600px;
-
-}
-
-.cap{
-  font-family: louisbold;
-  color: rgb(44, 44, 44);
-  left: 40px;
-  font-size: 2.2em;
-  position: absolute;
+  padding: 20px;
+  color: #7D5350;
   
+  
+}
+
+.servicos{
+  margin-top: 50px;
+background: url(imagem/sectionservicos2.png) no-repeat;
+background-size: cover;
+  width: 100%;
+  height: 1300px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.serv{
+  text-align: center;
+  font-family: louislight;
+  color: #7D7675;
+  font-size: 2.2em;
+  margin: 30px 0 50px 0;
 
 }
+
+.imgserv1{
+  background: url(imagem/servico2.png) no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto 0 auto;
+}
+
+.imgserv2{
+  background: url(imagem/servico01.png) no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto 0 auto;
+}
+
+.imgserv3{
+  background: url(imagem/servico3.png) no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto 0 auto;
+}
+
+.imgserv4{
+  background: url(imagem/servico4.png) no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto 0 auto;
+}
+
+.linha{
+  width: 80%;
+  height: 2px;
+  background-color: #7d767545;
+  margin: auto;
+}
+
