@@ -395,7 +395,9 @@ background-size: cover;
 }
 
 .agende{
-  background-color: rgb(85, 85, 85);
+  background: url(imagem/agende.png) no-repeat;
+  background-size: cover;
+  background-color: #fcedec;
   width: 100%;
   height: 400px;
 }
@@ -403,7 +405,7 @@ background-size: cover;
   padding-top: 30px;
   text-align: center;
   font-family: louislight;
-  color:  white;
+  color:  black;
   font-size: 2.2em;
   margin: 80px 0 80px 0;
   position: relative;
@@ -442,4 +444,10 @@ a#click{
   0% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
   100% { transform: translateY(0); }
+}
+
+footer{
+  background-color: black;
+  width: 100%;
+  height: 300px;
 }
