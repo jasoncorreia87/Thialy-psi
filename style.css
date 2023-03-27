@@ -81,8 +81,10 @@
     
     body{
         overflow-x: hidden;
+        background-color: #fcedec;
     }
     main{
+      background-color: #fcedec;
       
     }
     a{
@@ -349,3 +351,45 @@ background-size: cover;
   margin: auto;
 }
 
+.cursos{
+  background-color: #fcedec;
+  width: 100%;
+  height: 400px;
+  
+
+ 
+}
+
+.curso{
+  text-align: center;
+  font-family: louislight;
+  color:  #7D7675;
+  font-size: 2.2em;
+  margin: 80px 0 80px 0;
+  position: relative;
+
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cur01{
+  background: url(imagem/curso01.png) no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  display: flex;
+
+  
+}
+
+.cur02{
+  background: url(imagem/curso02.png) no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  display: flex;
+ 
+}
