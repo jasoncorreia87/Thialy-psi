@@ -402,10 +402,11 @@ background-size: cover;
   height: 400px;
 }
 .agen{
+
   padding-top: 30px;
   text-align: center;
   font-family: louislight;
-  color:  black;
+  color:  #7D5350;
   font-size: 2.2em;
   margin: 80px 0 80px 0;
   position: relative;
