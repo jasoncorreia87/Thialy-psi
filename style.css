@@ -91,7 +91,7 @@
         color: rgb(0, 0, 0);
         font-size: 0.9em;
         text-decoration: none;
-        transition: 0.3s;
+        transition: 0.6s;
       }
 
     .nav-list{
@@ -99,7 +99,7 @@
         top: 10.5vh;
         right: 0;
         width: 40vw;
-        height: 300px;
+        height: 50vh;
         background: rgba(255, 255, 255, 0.611);
         flex-direction: column;
         align-items: center;
@@ -123,7 +123,7 @@
 
     .nav-list.active{
         transform: translateX(0);
-        height: 300px;
+        height: 50vh;
     }
   }
 
@@ -258,45 +258,66 @@
   
 }
 .h11{
-  text-align: center;
+  text-align: left;
+  padding-left: 30px;
   font-family: louislight;
   color: #7D5350;
-  font-size: 2.2em;
-  
-  margin: 60px 0 60px 0;
-  
+  font-size: 1.5em;
+  margin: 60px 0 20px 0;
+
+}
+.linhabotton{
+  margin-left: 30px;
+  width: 90px;
+  height: 2px;
+  background-color: #7D5350;
 
 }
 .fotothica{
-  background-color: white;
-  justify-content: center;
-  display: flex;
+  
+  background: url(imagem/quem\ sou\ eu.png) no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 300px;
+  width: 300px;
+  box-shadow: 3px 7px 5px#7d535083;
+  border-radius: 150px;
+  margin: 150px auto 50px;
 
 }
 
-.thicafoto{
-  position: absolute;
-  width: 480px;
-  height: 300px;
-  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.21);
-
-
-}
 
 p{
   font-family: louislight;
-  text-align: center;
-  padding: 20px;
+  text-align: left;
+  padding: 30px;
   color: #7D5350;
-  
+  line-height: 22px;
+}
+
+.saiba{
+  position: relative;
+  font-family: louislight;
+  width: 100px;
+  height: 30px;
+  background-color: #7D5350;
+  border-radius: 20px;
+  margin-left: 30px;
+  align-items: center;
+}
+.asaib{
+  position: absolute;
+  color: white;
+  padding-left: 15px;
+  padding-top: 7px;
   
 }
 
 .servicos{
   margin-top: 50px;
-background: url(imagem/sectionservicos2.png) no-repeat;
-background-size: cover;
+/*background: url(imagem/sectionservicos2.png) no-repeat;
+background-size: cover;*/
+background-color: white;
   width: 100%;
   height: 1300px;
   display: inline-block;
@@ -312,12 +333,23 @@ background-size: cover;
 
 }
 
+.pserv{
+  font-family: louislight;
+  text-align: center;
+  padding: 30px;
+  color: #7D5350;
+  line-height: 22px;
+
+}
+
 .imgserv1{
   background: url(imagem/servico2.png) no-repeat;
   background-size: cover;
   width: 200px;
   height: 200px;
   margin: 20px auto 0 auto;
+  box-shadow: 3px 7px 5px#7d535083;
+  border-radius: 100px;
 }
 
 .imgserv2{
@@ -326,6 +358,8 @@ background-size: cover;
   width: 200px;
   height: 200px;
   margin: 20px auto 0 auto;
+  box-shadow: 3px 7px 5px#7d535083;
+  border-radius: 100px;
 }
 
 .imgserv3{
@@ -334,6 +368,8 @@ background-size: cover;
   width: 200px;
   height: 200px;
   margin: 20px auto 0 auto;
+  box-shadow: 3px 7px 5px#7d535083;
+  border-radius: 100px;
 }
 
 .imgserv4{
@@ -342,6 +378,8 @@ background-size: cover;
   width: 200px;
   height: 200px;
   margin: 20px auto 0 auto;
+  box-shadow: 3px 7px 5px#7d535083;
+  border-radius: 100px;
 }
 
 .linha{
@@ -381,6 +419,8 @@ background-size: cover;
   width: 150px;
   height: 150px;
   display: flex;
+  border-radius: 75px;
+  box-shadow: 3px 7px 5px#7d535083;
 
   
 }
@@ -391,13 +431,15 @@ background-size: cover;
   width: 150px;
   height: 150px;
   display: flex;
+  border-radius: 75px;
+  box-shadow: 3px 7px 5px#7d535083;
  
 }
 
 .agende{
   background: url(imagem/agende.png) no-repeat;
   background-size: cover;
-  background-color: #fcedec;
+  background-color: white;
   width: 100%;
   height: 400px;
 }
