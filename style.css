@@ -17,6 +17,8 @@
 *{
     padding: 0px;
     margin: 0px;
+    list-style: none;
+    text-decoration: none;
 }
 
   a{
@@ -83,59 +85,115 @@
         overflow-x: hidden;
         background-color: #fcedec;
     }
-    main{
-      background-color: #fcedec;
-      
-    }
-    a{
-        color: rgb(0, 0, 0);
-        font-size: 0.9em;
-        text-decoration: none;
-        transition: 0.6s;
-      }
-
-    .nav-list{
-        position: absolute;
-        top: 10.5vh;
-        right: 0;
-        width: 40vw;
-        height: 50vh;
-        background: rgba(255, 255, 255, 0.611);
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-        z-index: 10;
-        
-    }
-
-    .nav-list li{
-        margin-left: 0;
-        
-       
-    }
-
-    .mobile-menu{
-        display: block;
-      
-    }
-
-    .nav-list.active{
-        transform: translateX(0);
-        height: 50vh;
-    }
   }
 
 
-  @keyframes navlinkFade{
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    } to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+
+  .container{
+    z-index: 20;
+  }
+
+  .hamburger{
+      width: 2rem;
+      height: 2rem;
+      position: fixed;
+      z-index: 5;
+      right: 2rem;
+      top: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      
+  }
+  
+  .show-menu .hamburger{
+      right: 16rem;
+  
+  }
+  
+  .line{
+      width: 100%;
+      height: .1rem;
+      padding: 1px;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 0.1rem 0.1rem 3px rgba(0, 0, 0, 0.788);
+      transition: transform .7s;
+  }
+  
+  .show-menu #line1{
+      transform: rotate(45deg) translate(.4rem, .9rem);
+      background-color: rgb(224, 49, 102);
+      box-shadow: none;
+      
+  }
+  
+  .show-menu #line2{
+      opacity: 0;
+      visibility: hidden;
+  }
+  
+  .show-menu #line3{
+      transform: rotate(-45deg) translate(.3rem, -.9rem);
+      background-color: rgb(224, 49, 102);
+      box-shadow: none;
+      
+      
+  }
+  
+  .sidebar{
+      width: 20rem;
+      height: 100vh;
+      background: linear-gradient(329.54deg, #111111 0%, #222222 100%);
+      box-shadow: 10px 5px 15px 10px rgba(0, 0, 0, 0.582);
+      position: fixed;
+      top: 0;
+      right: -20rem;
+      transition: all .8s;
+      
+  }
+  
+  .show-menu .sidebar{
+      right: 0;
+  }
+  
+  .menu{
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  .menu-item{
+      text-align: left;
+      margin-bottom: .5rem;
+      
+  }
+
+  .menu-item > a{
+    
+    font-family: louislight;
+    font-size: 1.7em;
+  }
+  
+  .menu-link{
+      font-family:sans-serif;
+      font-size: 2rem;
+      color: white;
+      transition: color .7s;
+  }
+  
+  .menu-link:hover{
+      color: #7D5350;
+      transition: color .7s;
+  }
+
+  .redessidebar{
+    margin-top: 350px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px 0 50px
   }
 
 /* aqui comeca o carrosel*/
@@ -503,45 +561,45 @@ a#click{
 footer{
   background-color: black;
   width: 100%;
-  height: 200px;
+  height: 150px;
 }
 
 .redes{
   display: flex;
   justify-content: space-around;
-  padding-top: 30px;
+  padding: 30px 50px 0 50px
 }
 .ig{
   background: url(imagem/instagram.png) no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 30px;
-border-radius: 25px;
+  width: 20px;
+  height: 20px;
+border-radius: 10px;
 }
 .face{
   background: url(imagem/facebook.png) no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 30px;
-border-radius: 25px;
+  width: 20px;
+  height: 20px;
+border-radius: 10px;
 }
 .whats{
   background: url(imagem/whats.png) no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 30px;
-border-radius: 25px;
+  width: 20px;
+  height: 20px;
+border-radius: 10px;
 }
 .pint{
   background: url(imagem/pint.png) no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 30px;
-border-radius: 25px;
+  width: 20px;
+  height: 20px;
+border-radius: 10px;
 }
 
 .final{
-  margin-top: 50px;
+
   text-align: center;
   font-size: 15px;
 }
