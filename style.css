@@ -86,7 +86,22 @@
         background-color: #fcedec;
     }
   }
-
+.fixocabeca{
+  background-color: #fcedec;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 20;
+  box-shadow: 3px 4px 5px#7d53504c;
+}
+.thica{
+  background: url(imagem/marca\ thialy\ 2022.png) no-repeat;
+  background-size: contain;
+  width: 160px;
+  height: 90px;
+  margin: 10px 0 0 30px ;
+  z-index: 21;
+  }
 
 
   .container{
@@ -311,6 +326,22 @@
 }
 /*aqui termina o carrosel*/
 
+
+.frase{
+  text-align: center;
+  font-family: louislight;
+  color: #7D5350;
+  font-size: 2.2em;
+  padding-top: 30px;
+  
+}
+
+.freud{
+  text-align: right;
+  font-family: louislight;
+  color: #7D5350;
+  margin: 0 40px 0;
+}
 .quemsoueu{
   position: relative;
   
@@ -321,7 +352,7 @@
   font-family: louislight;
   color: #7D5350;
   font-size: 1.5em;
-  margin: 60px 0 20px 0;
+  margin: 20px 0 20px 0;
 
 }
 .linhabotton{
@@ -340,7 +371,7 @@
   width: 300px;
   box-shadow: 3px 7px 5px#7d535083;
   border-radius: 150px;
-  margin: 150px auto 50px;
+  margin: 50px auto 50px;
 
 }
 
@@ -373,8 +404,7 @@ p{
 
 .servicos{
   margin-top: 50px;
-/*background: url(imagem/sectionservicos2.png) no-repeat;
-background-size: cover;*/
+  box-shadow: 3px 4px 5px#7d53504c inset;
 background-color: white;
   width: 100%;
   height: 1300px;
@@ -451,6 +481,7 @@ background-color: white;
   background-color: #fcedec;
   width: 100%;
   height: 400px;
+  box-shadow: 3px 4px 5px#7d53504c inset;
   
 
  
@@ -461,7 +492,7 @@ background-color: white;
   font-family: louislight;
   color:  #7D5350;
   font-size: 2.2em;
-  margin: 80px 0 80px 0;
+  padding: 50px 0 50px 0;
   position: relative;
 
 }
@@ -499,6 +530,7 @@ background-color: white;
   background-color: #7D5350;
   width: 100%;
   height: 250px;
+  
 }
 
 .agen{
@@ -561,7 +593,7 @@ a#click{
 footer{
   background-color: black;
   width: 100%;
-  height: 150px;
+  height: 155px;
 }
 
 .redes{
