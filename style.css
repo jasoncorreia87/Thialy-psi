@@ -21,15 +21,7 @@
     text-decoration: none;
 }
 
-  a{
-    color: gray;
-    text-decoration: none;
-    transition: 0.4s;
-  }
-
-  a:hover{
-    opacity: 0.6;
-  }
+  
 
 
   .thica{
@@ -103,7 +95,7 @@
   z-index: 21;
   }
 
-
+/* comeca hamburguer*/
   .container{
     z-index: 20;
   }
