@@ -392,6 +392,7 @@ p{
   padding-left: 15px;
   padding-top: 7px;
   
+  
 }
 
 .servicos{
@@ -515,6 +516,14 @@ background-color: white;
   border-radius: 75px;
   box-shadow: 3px 7px 5px#7d535083;
  
+}
+
+.pcurso{
+  font-family: louislight;
+  text-align: center;
+  padding: 30px;
+  color: #7D5350;
+  line-height: 22px;
 }
 
 .agende{

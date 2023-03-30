@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agende</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .imgagende{
+            background: url(imagem/agende.png) no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="fixocabeca">
+                <div class="thica"></div>
+            </div>
+            
+            <div class="container">
+
+                <div class="hamburger">
+                    <div class="line" id="line1"></div>
+                    <div class="line" id="line2"></div>
+                    <div class="line" id="line3"></div>
+                </div>
+                
+                <aside class="sidebar">
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+                            <li class="menu-item"><a href="sobre.html" class="menu-link">Sobre</a></li>
+                            <li class="menu-item"><a href="cursos.html" class="menu-link">Cursos</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">Agende</a></li>
+                            <li class="menu-item"><a href="Contato.html" class="menu-link">Contato</a></li>
+                        </ul>
+                       
+                    </nav>
+                    <div class="redessidebar">
+                        <a href="https://www.instagram.com/psithialymuniz/" target="_blank">
+                            <div class="ig"></div>
+                        </a>
+                        <a href="https://www.facebook.com/omundopsi/" target="_blank">
+                            <div class="face"></div>
+                        </a>
+                        <div class="whats"></div>
+                        <a href="https://www.Pinterest.com/psithialymuniz" target="_blank">
+                            <div class="pint"></div>
+                        </a>
+    
+                    </div>
+                </aside>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="imgagende"></div>
+
+    <section class="agende">
+        <div class="agendadiv">
+            <h1 class="agen">Agende sua sessão</h1>
+        </div>
+
+        <div id="botao"><button class="button"><a id="click" href="#">Clique aqui!</a></button></div>
+    </section>
+
+
+    <footer>
+        <div class="redes">
+            <a href="https://www.instagram.com/psithialymuniz/" target="_blank">
+                <div class="ig"></div>
+            </a>
+            <a href="https://www.facebook.com/omundopsi/" target="_blank">
+                <div class="face"></div>
+            </a>
+            <div class="whats"></div>
+            <a href="https://www.Pinterest.com/psithialymuniz" target="_blank">
+                <div class="pint"></div>
+            </a>
+
+        </div>
+        <p class="final">Thialy Muniz © 2023  produzido <br>por Jason Correia</p>
+    </footer>
+
+    <script>
+        document.querySelector(".hamburger").addEventListener("click", () =>
+document.querySelector(".container").classList.toggle("show-menu")
+);
+
+    </script>
+    
+</body>
+</html>
