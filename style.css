@@ -321,6 +321,7 @@
 
 .frase{
   text-align: center;
+  font-style: italic;
   font-family: louislight;
   color: #7D5350;
   font-size: 2.2em;
@@ -333,6 +334,14 @@
   font-family: louislight;
   color: #7D5350;
   margin: 0 40px 0;
+}
+
+.fundofrase{
+  margin: auto;
+  background-color: white;
+  width: 80%;
+  height: 200px;
+  box-shadow: 3px 7px 5px#7d535037;
 }
 .quemsoueu{
   position: relative;
@@ -407,7 +416,7 @@ background-color: white;
 
 .serv{
   text-align: center;
-  font-family: louislight;
+  font-family: louisbold;
   color: #7D5350;
   font-size: 2.2em;
   margin: 30px 0 50px 0;
@@ -482,7 +491,7 @@ background-color: white;
 
 .curso{
   text-align: center;
-  font-family: louislight;
+  font-family: louisbold;
   color:  #7D5350;
   font-size: 2.2em;
   padding: 50px 0 50px 0;
@@ -527,24 +536,23 @@ background-color: white;
 }
 
 .agende{
-  
-  background-color: #7D5350;
+  background: url(imagem/agende.png) no-repeat;
+  background-size: cover;
+  background-color: black;
   width: 100%;
-  height: 250px;
+  height: 300px;
   
 }
 
 .agen{
-  background-color: white;
-  width: 300px;
-  height: 40px;
+  
   top: 30px;
-  border-radius: 30px;
+  border-radius: 0px;
   padding: 25px;
   text-align: center;
-  font-family: louislight;
-  color:  #7D5350;
-  font-size: 2em;
+  font-family: louisbold;
+  color:  white;
+  font-size: 2.3em;
   margin: 0px auto 80px auto;
   position: relative;
 }
@@ -582,7 +590,7 @@ div#botao{
 a#click{
   font-family: 'Fjalla One', sans-serif;
   text-decoration: none;
-  color: #7D5350;
+  color: black;
 }
 
 @keyframes bounce {
@@ -594,7 +602,7 @@ a#click{
 footer{
   background-color: black;
   width: 100%;
-  height: 155px;
+  height: 120px;
 }
 
 .redes{
@@ -632,7 +640,7 @@ border-radius: 10px;
 }
 
 .final{
-
+  padding: 10px 0 10px 0 ;
   text-align: center;
   font-size: 15px;
 }
