@@ -320,26 +320,12 @@ body{
   text-align: center;
   font-style: italic;
   font-family: louislight;
-  color: #7D5350;
-  font-size: 1.5em;
-  padding: 15px;
+  color: black;
+  font-size: 1.3em;
+  padding: 30px;
   
 }
 
-.freud{
-  text-align: right;
-  font-family: louislight;
-  color: #7D5350;
-  margin: 0 40px 0;
-}
-
-.fundofrase{
-  margin: auto;
-  background-color: white;
-  width: 80%;
-  height: 200px;
-  box-shadow: 3px 7px 5px#7d535037;
-}
 .quemsoueu{
   position: relative;
   
@@ -369,13 +355,13 @@ body{
   width: 300px;
   box-shadow: 3px 7px 5px#7d535083;
   border-radius: 150px;
-  margin: 50px auto 50px;
+  margin: 40px auto 50px;
 
 }
 
 
 p{
-  font-family: louislight;
+  font-family: louisnormal;
   text-align: left;
   padding: 30px 30px 0 30px;
   color: #7D5350;
@@ -384,7 +370,7 @@ p{
 }
 
 .pbaixo{
-  font-family: louislight;
+  font-family: louisnormal;
   text-align: left;
   padding: 0 30px 0px 30px;
   color: #7D5350;
@@ -393,7 +379,7 @@ p{
 }
 
 .pbaixo2{
-  font-family: louislight;
+  font-family: louisnormal;
   text-align: left;
   padding: 0 30px 30px 30px;
   color: #7D5350;
@@ -440,7 +426,7 @@ background-color: white;
 }
 
 .pserv{
-  font-family: louislight;
+  font-family: louisnormal;
   text-align: center;
   padding: 30px;
   color: #7D5350;
@@ -521,7 +507,7 @@ background-color: white;
 }
 
 .cur01{
-  background: url(imagem/curso01.png) no-repeat;
+  background: url(imagem/workshop.png) no-repeat;
   background-size: cover;
   width: 150px;
   height: 150px;
@@ -544,9 +530,9 @@ background-color: white;
 }
 
 .pcurso{
-  font-family: louislight;
+  font-family: louisnormal;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   color: #7D5350;
   line-height: 22px;
 }
@@ -874,26 +860,15 @@ padding: 30px;
   text-align: center;
   font-style: italic;
   font-family: louislight;
-  color: #7D5350;
+  color: black;
   font-size: 2.2em;
-  padding-top: 30px;
+  padding: 50px;
   
 }
 
-.freud{
-  text-align: right;
-  font-family: louislight;
-  color: #7D5350;
-  margin: 0 40px 0;
-}
 
-.fundofrase{
-  margin: auto;
-  background-color: white;
-  width: 80%;
-  height: 200px;
-  box-shadow: 3px 7px 5px#7d535037;
-}
+
+
 .quemsoueu{
   position: relative;
   
@@ -931,10 +906,28 @@ padding: 30px;
 p{
   font-family: louislight;
   text-align: left;
-  padding: 30px 120px 30px 120px;
+  padding: 30px 120px 0px 120px;
   color: #7D5350;
   line-height: 22px;
   
+}
+
+.pbaixo{
+  font-family: louislight;
+  text-align: left;
+  padding: 0px 120px 0px 120px;
+  color: #7D5350;
+  line-height: 22px;
+  text-indent: 20px;
+}
+
+.pbaixo2{
+  font-family: louislight;
+  text-align: left;
+  padding: 0px 120px 30px 120px;
+  color: #7D5350;
+  line-height: 22px;
+  text-indent: 20px;
 }
 
 .saiba{
@@ -1057,7 +1050,7 @@ background-color: white;
 }
 
 .cur01{
-  background: url(imagem/curso01.png) no-repeat;
+  background: url(imagem/workshop.png) no-repeat;
   background-size: cover;
   width: 200px;
   height: 200px;
