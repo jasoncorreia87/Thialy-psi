@@ -116,6 +116,10 @@
             box-shadow: 3px 7px 5px#7d535083;
           
         }
+
+        .home{
+            display: none;
+        }
         
 
 
@@ -132,6 +136,18 @@
             *{
             padding: 0px;
             margin: 0px;
+        }
+
+        .home{
+            display: block;
+            background: url(imagem/home.jpg) no-repeat;
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+            z-index: 30;
+            margin-top: 75px;
+            margin-left: 800px;
+            border-radius: 50%;
         }
         .sobre{
             width: 100%;
@@ -238,6 +254,9 @@
         <nav>
             <div class="fixocabeca">
                 <div class="thica"></div>
+                <a href="index.html">
+                    <div class="home"></div>
+                </a>
             </div>
             
             <div class="container">

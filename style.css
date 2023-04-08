@@ -789,6 +789,13 @@ border-radius: 20px;
 
 
 
+
+
+
+
+
+
+
 @media screen and (min-width: 1000px){
 
   *{
@@ -1030,7 +1037,7 @@ padding: 30px;
 
 
 p{
-  font-family: louislight;
+  font-family: louisnormal;
   text-align: left;
   padding: 30px 330px 0px 330px;
   color: #7D5350;
@@ -1039,7 +1046,7 @@ p{
 }
 
 .pbaixo{
-  font-family: louislight;
+  font-family: louisnormal;
   text-align: left;
   padding: 0px 330px 0px 330px;
   color: #7D5350;
@@ -1048,7 +1055,7 @@ p{
 }
 
 .pbaixo2{
-  font-family: louislight;
+  font-family: louisnormal;
   text-align: left;
   padding: 0px 330px 30px 330px;
   color: #7D5350;
