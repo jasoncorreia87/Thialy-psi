@@ -869,7 +869,7 @@ padding: 30px;
     margin: auto;
     padding: 0;
     width: 60%;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -878,7 +878,7 @@ padding: 30px;
 .slider{
   margin: 0 auto;
   width: 100vw;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
 }
 
@@ -900,20 +900,20 @@ padding: 30px;
 
 .slide img{
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .manual-navigation{
   position: absolute;
   width: 100%;
-  margin: 150px 100px 0 -150px;
+  margin: 280px 100px 0 -350px;
   display: flex;
   justify-content: center;
 }
 .navigation-auto{
   position: absolute;
   width: 100%;
-  margin: 450px auto 0 -150px;
+  margin: 580px auto 0 -350px;
   display: flex;
   justify-content: center;
 }
