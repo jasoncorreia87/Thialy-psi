@@ -402,7 +402,7 @@ p{
 .asaib{
   position: absolute;
   color: white;
-  padding-left: 15px;
+  padding-left: 11px;
   padding-top: 7px;
   
   
@@ -535,6 +535,7 @@ background-color: white;
   font-family: louisnormal;
   text-align: center;
   padding: 20px;
+  margin-left: 30px;
   color: #7D5350;
   line-height: 22px;
 }
@@ -1210,8 +1211,8 @@ background-color: white;
   text-align: center;
   padding: 25px;
   color: #7D5350;
-  line-height: 22px;
-  font-size: 1.6em;
+  margin-left: 60px;
+  font-size: 2em;
 }
 
 .agende{
